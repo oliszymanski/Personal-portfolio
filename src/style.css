@@ -5,6 +5,9 @@
     /* --frame-width: */
     --frame-radius: .3px;
 
+    /* button properties */
+    --btn-border: .8px;
+    --btn-border-radius: .1px;
 
     /* font weight */
     --header-font-weight: 600;
@@ -14,5 +17,9 @@
 
 
     /* font size */
+
+    /* link on white */
+    --primary-link-hover-color: #4e92e1;
+
 }
 
