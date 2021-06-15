@@ -1,4 +1,15 @@
 :root{
     /* --frame-width: */
     --frame-radius: .3px;
+
+
+    /* font weight */
+    --header-font-weight: 600;
+    --clear-body-font-weight: 540;
+    --card-font-weight: 550;
+    --footer-font-weight: 400;
+
+
+    /* font size */
 }
+
