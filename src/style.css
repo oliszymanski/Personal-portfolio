@@ -23,3 +23,21 @@
 
 }
 
+html body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item a:hover{
+    color: var(--primary-link-hover-color) !important;
+    /*text-decoration: underline;*/
+}
+
+
+.main-content .btn{
+    border-radius: var(--btn-border-radius);
+}
+
+.about-me{
+    width: 100%;
+    background-color: #000;
+}
