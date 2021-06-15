@@ -1,0 +1,43 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root{
+    /* --frame-width: */
+    --frame-radius: .3px;
+
+    /* button properties */
+    --btn-border: .8px;
+    --btn-border-radius: .1px;
+
+    /* font weight */
+    --header-font-weight: 600;
+    --clear-body-font-weight: 540;
+    --card-font-weight: 550;
+    --footer-font-weight: 400;
+
+
+    /* font size */
+
+    /* link on white */
+    --primary-link-hover-color: #4e92e1;
+
+}
+
+html body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item a:hover{
+    color: var(--primary-link-hover-color) !important;
+    /*text-decoration: underline;*/
+}
+
+
+.main-content .btn{
+    border-radius: var(--btn-border-radius);
+}
+
+.about-me{
+    width: 100%;
+    background-color: #000;
+}
