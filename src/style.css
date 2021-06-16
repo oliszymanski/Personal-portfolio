@@ -21,6 +21,10 @@
     /* link on white */
     --primary-link-hover-color: #4e92e1;
 
+
+    /* for icons */
+    --icon-transition: .4s;
+
 }
 
 html body{
@@ -77,9 +81,13 @@ html body{
 
 .media-icons{
     font-size: 40px;
-    margin-top: 100px;
+    margin-top: 90px;
     color: #fff;
-    transition: .4s;
+}
+
+
+.github, .bi-twitter, .bi-facebook{
+    transition: var(--icon-transition);
 }
 
 .github:hover{
