@@ -41,3 +41,58 @@ html body{
     width: 100%;
     background-color: #000;
 }
+
+
+
+.python-projects{
+    margin-top: 300px;
+}
+
+
+.python-project-link .btn{
+    border-radius: var(--btn-border-radius);
+}
+
+
+.python-projects img{
+    max-width: 500px;
+}
+
+
+
+.container-max{
+    background-color: #191919;
+    margin-top: 300px;
+    color: #fff;
+}
+
+.container-max .web-projects{
+   margin-top: 300px !important;
+}
+
+
+.container-max .social-media{
+    margin-top: 350px !important;
+}
+
+.media-icons{
+    font-size: 40px;
+    margin-top: 100px;
+    color: #fff;
+    transition: .4s;
+}
+
+.github:hover{
+    color: #b8b8b8;
+}
+.bi-twitter:hover{
+    color: #1da1f2;
+}
+.bi-facebook:hover{
+    color: #4267B2;
+}
+
+
+.media-icons a{
+    color: #fff;
+}
