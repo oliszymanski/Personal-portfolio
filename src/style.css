@@ -66,7 +66,7 @@ html body{
 
 
 .python-projects img{
-    max-width: 500px;
+    max-width: 450px;
 }
 
 
@@ -89,7 +89,6 @@ html body{
 .media-icons{
     font-size: 40px;
     margin-top: 70px;
-    /*margin-bottom: 50px;*/
     color: #fff;
 }
 
