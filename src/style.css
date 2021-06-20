@@ -36,6 +36,7 @@
 
 html body{
     font-family: 'Ubuntu', sans-serif;
+    x-overflow: hidden;
 }
 
 .nav-item a:hover{
@@ -66,7 +67,8 @@ html body{
 
 
 .python-projects img{
-    max-width: 450px;
+    max-width: 130%;
+    height: auto;
 }
 
 
