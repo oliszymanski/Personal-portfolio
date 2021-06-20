@@ -5,15 +5,18 @@
     /* --frame-width: */
     --frame-radius: .3px;
 
+
     /* button properties */
     --btn-border: .8px;
     --btn-border-radius: .1px;
+
 
     /* font weight */
     --header-font-weight: 600;
     --clear-body-font-weight: 540;
     --card-font-weight: 550;
     --footer-font-weight: 400;
+
 
     /* link on white */
     --primary-link-hover-color: #4e92e1;
@@ -101,10 +104,6 @@ html body{
 
 .github, .bi-twitter, .bi-facebook, .bi-instagram, .bi-telegram{
     transition: var(--icon-transition);
-    animation: floating;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
 }
 
 
