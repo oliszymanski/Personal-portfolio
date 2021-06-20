@@ -5,15 +5,18 @@
     /* --frame-width: */
     --frame-radius: .3px;
 
+
     /* button properties */
     --btn-border: .8px;
     --btn-border-radius: .1px;
+
 
     /* font weight */
     --header-font-weight: 600;
     --clear-body-font-weight: 540;
     --card-font-weight: 550;
     --footer-font-weight: 400;
+
 
     /* link on white */
     --primary-link-hover-color: #4e92e1;
@@ -36,11 +39,11 @@
 
 html body{
     font-family: 'Ubuntu', sans-serif;
+    x-overflow: hidden;
 }
 
 .nav-item a:hover{
     color: var(--primary-link-hover-color) !important;
-    /*text-decoration: underline;*/
 }
 
 
@@ -55,7 +58,7 @@ html body{
 
 
 
-.python-projects{
+.data-science-projects{
     margin-top: 300px;
 }
 
@@ -65,19 +68,31 @@ html body{
 }
 
 
-.python-projects img{
-    max-width: 450px;
+.data-science-projects img{
+    max-width: 130%;
+    height: auto;
 }
 
 
 
-.container-max{
+.web-container-max{
     background-color: #191919;
     margin-top: 300px;
     color: #fff;
 }
 
-.container-max .web-projects{
+.web-container-max:after{
+    content: '';
+    position: absolute;
+    transform-origin: 100% 0;
+    -webkit-transform: skew(-45deg);
+    -ms-transform: skew(-45deg);
+    transform: skew(-45deg);
+    z-index: -1;
+}
+
+
+.web-container-max .web-projects{
    margin-top: 300px !important;
 }
 
@@ -87,7 +102,7 @@ html body{
 }
 
 
-.container-max .social-media{
+.web-container-max .social-media{
     margin-top: 350px !important;
 }
 
@@ -100,10 +115,6 @@ html body{
 
 .github, .bi-twitter, .bi-facebook, .bi-instagram, .bi-telegram{
     transition: var(--icon-transition);
-    animation: floating;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
 }
 
 
