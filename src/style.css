@@ -82,6 +82,11 @@ html body{
 }
 
 
+#web-projects .title{
+    padding-top: 150px;
+}
+
+
 .container-max .social-media{
     margin-top: 350px !important;
 }
