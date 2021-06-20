@@ -58,7 +58,7 @@ html body{
 
 
 
-.python-projects{
+.data-science-projects{
     margin-top: 300px;
 }
 
@@ -68,20 +68,31 @@ html body{
 }
 
 
-.python-projects img{
+.data-science-projects img{
     max-width: 130%;
     height: auto;
 }
 
 
 
-.container-max{
+.web-container-max{
     background-color: #191919;
     margin-top: 300px;
     color: #fff;
 }
 
-.container-max .web-projects{
+.web-container-max:after{
+    content: '';
+    position: absolute;
+    transform-origin: 100% 0;
+    -webkit-transform: skew(-45deg);
+    -ms-transform: skew(-45deg);
+    transform: skew(-45deg);
+    z-index: -1;
+}
+
+
+.web-container-max .web-projects{
    margin-top: 300px !important;
 }
 
@@ -91,7 +102,7 @@ html body{
 }
 
 
-.container-max .social-media{
+.web-container-max .social-media{
     margin-top: 350px !important;
 }
 
