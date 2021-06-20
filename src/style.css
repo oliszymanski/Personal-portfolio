@@ -41,7 +41,6 @@ html body{
 
 .nav-item a:hover{
     color: var(--primary-link-hover-color) !important;
-    /*text-decoration: underline;*/
 }
 
 
